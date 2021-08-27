@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Turbo Converter App</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrap">
+        <h1 class="title-app">Turbo Converter</h1>
+      </div>
+    </header>
+
+    <div class="container-app">
+      <h3 class="subtitle">Selecciona tipo de conversión 👀</h3>
+
+      <div class="radio">
+        <input
+          type="radio"
+          id="decimal"
+          name="option"
+          value="decimal"
+          checked
+        />
+        <label for="decimal">Decimal → Binario</label><br />
+        <input type="radio" id="binary" name="option" value="binary" />
+        <label for="Binary">Binario → Decimal</label><br />
+      </div>
+
+      <input
+        id="input"
+        class="input"
+        type="text"
+        placeholder="Introduce un número decimal"
+      />
+
+      <button id="btn" class="btn">Convertir</button>
+      <h4 class="result">Resultado: <span id="result">0</span></h4>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --dark-blue-color: #151228;
+  --primary-color: #0ba2ca;
+  --btn-color: #1628f1;
+  --white-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--dark-blue-color);
+  color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.wrap {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.container-app {
+  max-width: 450px;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+/* Header */
+.title-app {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+/* Form */
+.subtitle {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.radio {
+  margin-bottom: 40px;
+}
+
+.input {
+  padding: 12px 14px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--dark-blue-color);
+  margin-bottom: 15px;
+  color: var(--white-color);
+  width: 100%;
+}
+
+.btn {
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 4px;
+  color: var(--white-color);
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 12px 14px;
+}
+
+/* Result */
+.result {
+  display: block;
+  margin: 20px 0;
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#result {
+  color: var(--primary-color);
+  font-weight: 400;
+}
